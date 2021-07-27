@@ -261,7 +261,57 @@ SELECT title FROM movies ORDER BY release_date asc LIMIT 1;
 6. List the `title` and `release_date` of all the movies from the newest to the oldest one.
 
 ```SQL
-<your SQL query here>
+SELECT title, release_date  FROM movies ORDER BY release_date desc;
+
+                                       title                                       | release_date 
+-----------------------------------------------------------------------------------+--------------
+ unknown                                                                           | 
+ Apt Pupil (1998)                                                                  | 1998-10-23
+ Mighty, The (1998)                                                                | 1998-10-09
+ City of Angels (1998)                                                             | 1998-04-03
+ Big One, The (1997)                                                               | 1998-03-27
+ Spanish Prisoner, The (1997)                                                      | 1998-03-27
+ Lost in Space (1998)                                                              | 1998-03-27
+ Mercury Rising (1998)                                                             | 1998-03-27
+ Niagara, Niagara (1997)                                                           | 1998-03-20
+ Hana-bi (1997)                                                                    | 1998-03-20
+ Object of My Affection, The (1998)                                                | 1998-03-20
+ Primary Colors (1998)                                                             | 1998-03-20
+ Price Above Rubies, A (1998)                                                      | 1998-03-20
+ Man in the Iron Mask, The (1998)                                                  | 1998-03-17
+ Newton Boys, The (1998)                                                           | 1998-03-14
+ Wild Things (1998)                                                                | 1998-03-14
+ Everest (1998)                                                                    | 1998-03-10
+ U.S. Marshalls (1998)                                                             | 1998-03-10
+ Love and Death on Long Island (1997)                                              | 1998-03-10
+ Hush (1998)                                                                       | 1998-03-10
+ Men With Guns (1997)                                                              | 1998-03-06
+ Further Gesture, A (1996)                                                         | 1998-02-20
+ Little City (1998)                                                                | 1998-02-20
+ Palmetto (1998)                                                                   | 1998-02-20
+ Wedding Singer, The (1998)                                                        | 1998-02-13
+ Sphere (1998)                                                                     | 1998-02-13
+ Ayn Rand: A Sense of Life (1997)                                                  | 1998-02-13
+ Tokyo Fist (1995)                                                                 | 1998-02-11
+ Replacement Killers, The (1998)                                                   | 1998-02-06
+ Blues Brothers 2000 (1998)                                                        | 1998-02-06
+ Mat' i syn (1997)                                                                 | 1998-02-06
+ Night Flier (1997)                                                                | 1998-02-06
+ B. Monkey (1998)                                                                  | 1998-02-06
+ Nil By Mouth (1997)                                                               | 1998-02-06
+ Tainted (1998)                                                                    | 1998-02-01
+ Letter From Death Row, A (1998)                                                   | 1998-02-01
+ Desperate Measures (1998)                                                         | 1998-01-30
+ Deep Rising (1998)                                                                | 1998-01-30
+ Desperate Measures (1998)                                                         | 1998-01-30
+ Magic Hour, The (1998)                                                            | 1998-01-30
+ Twilight (1998)                                                                   | 1998-01-30
+ Four Days in September (1997)                                                     | 1998-01-23
+ Dangerous Beauty (1998)                                                           | 1998-01-23
+ Duoluo tianshi (1995)                                                             | 1998-01-21
+ Prophecy II, The (1998)                                                           | 1998-01-16
+ Hard Rain (1998)                                                                  | 1998-01-16
+--More-- 
 ```
 
 7. List all the years of release in ascending order without having repeated values.
