@@ -89,7 +89,51 @@ id  |                                       title                               
 2. List the `title` and `release_date` of all the movies released in `1995-01-01`.
 
 ```SQL
-<your SQL query here>
+SELECT title, release_date FROM movies WHERE release_date = '1995-01-01';
+
+                                title                                | release_date 
+---------------------------------------------------------------------+--------------
+ Toy Story (1995)                                                    | 1995-01-01
+ GoldenEye (1995)                                                    | 1995-01-01
+ Four Rooms (1995)                                                   | 1995-01-01
+ Get Shorty (1995)                                                   | 1995-01-01
+ Copycat (1995)                                                      | 1995-01-01
+ Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)                | 1995-01-01
+ Twelve Monkeys (1995)                                               | 1995-01-01
+ Babe (1995)                                                         | 1995-01-01
+ Dead Man Walking (1995)                                             | 1995-01-01
+ Seven (Se7en) (1995)                                                | 1995-01-01
+ French Twist (Gazon maudit) (1995)                                  | 1995-01-01
+ White Balloon, The (1995)                                           | 1995-01-01
+ Antonia's Line (1995)                                               | 1995-01-01
+ Angels and Insects (1995)                                           | 1995-01-01
+ Brothers McMullen, The (1995)                                       | 1995-01-01
+ Bad Boys (1995)                                                     | 1995-01-01
+ Apollo 13 (1995)                                                    | 1995-01-01
+ Batman Forever (1995)                                               | 1995-01-01
+ Crimson Tide (1995)                                                 | 1995-01-01
+ Desperado (1995)                                                    | 1995-01-01
+ Doom Generation, The (1995)                                         | 1995-01-01
+ Free Willy 2: The Adventure Home (1995)                             | 1995-01-01
+ Mad Love (1995)                                                     | 1995-01-01
+ Net, The (1995)                                                     | 1995-01-01
+ Strange Days (1995)                                                 | 1995-01-01
+ To Wong Foo, Thanks for Everything! Julie Newmar (1995)             | 1995-01-01
+ Billy Madison (1995)                                                | 1995-01-01
+ Outbreak (1995)                                                     | 1995-01-01
+ While You Were Sleeping (1995)                                      | 1995-01-01
+ Operation Dumbo Drop (1995)                                         | 1995-01-01
+ Heat (1995)                                                         | 1995-01-01
+ Sabrina (1995)                                                      | 1995-01-01
+ Sense and Sensibility (1995)                                        | 1995-01-01
+ Leaving Las Vegas (1995)                                            | 1995-01-01
+ Restoration (1995)                                                  | 1995-01-01
+ Once Upon a Time... When We Were Colored (1995)                     | 1995-01-01
+ Sudden Death (1995)                                                 | 1995-01-01
+ Ace Ventura: When Nature Calls (1995)                               | 1995-01-01
+ Powder (1995)                                                       | 1995-01-01
+ Dangerous Minds (1995)                                              | 1995-01-01
+--More-- 
 ```
 
 3. List the `title` and `release_date` of all the movies released between `1996-01-01` and `1998-01-01`.
