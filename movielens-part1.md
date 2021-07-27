@@ -402,11 +402,61 @@ SELECT count(gender) FROM users WHERE gender = 'M';
 9. List how many users of each age there are.
 
 ```SQL
-<your SQL query here>
+SELECT age, count(age) FROM users group by age;
+
+ age | count 
+-----+-------
+  54 |     4
+  29 |    32
+  68 |     2
+  34 |    17
+  51 |    20
+  70 |     3
+  52 |     6
+  63 |     3
+  10 |     1
+  35 |    27
+  45 |    15
+  39 |    22
+  69 |     2
+  36 |    21
+  31 |    25
+  50 |    20
+  60 |     9
+  14 |     3
+  66 |     1
+  22 |    37
+  59 |     3
+  13 |     5
+  65 |     3
+  16 |     5
+  62 |     2
+  73 |     1
+  11 |     1
+  44 |    23
+  42 |    21
+  41 |    10
+  46 |    12
+  40 |    21
+  43 |    13
+  32 |    28
+  53 |    12
+   7 |     1
+  38 |    17
+  15 |     6
+  48 |    20
+  26 |    34
+  57 |     9
+  24 |    33
+  61 |     3
+  19 |    23
+  25 |    38
+--More-- 
 ```
 
 10. List average age of the users group by gender.
 
 ```SQL
 <your SQL query here>
+
 ```
