@@ -139,7 +139,57 @@ SELECT title, release_date FROM movies WHERE release_date = '1995-01-01';
 3. List the `title` and `release_date` of all the movies released between `1996-01-01` and `1998-01-01`.
 
 ```SQL
-<your SQL query here>
+SELECT title, release_date FROM movies WHERE release_date BETWEEN '1996-01-01' AND '1998-01-01';
+
+                                      title                                      | release_date 
+---------------------------------------------------------------------------------+--------------
+ Richard III (1995)                                                              | 1996-01-22
+ Mr. Holland's Opus (1995)                                                       | 1996-01-29
+ From Dusk Till Dawn (1996)                                                      | 1996-02-05
+ Muppet Treasure Island (1996)                                                   | 1996-02-16
+ Braveheart (1995)                                                               | 1996-02-16
+ Taxi Driver (1976)                                                              | 1996-02-16
+ Rumble in the Bronx (1995)                                                      | 1996-02-23
+ Birdcage, The (1996)                                                            | 1996-03-08
+ Welcome to the Dollhouse (1995)                                                 | 1996-05-24
+ Fargo (1996)                                                                    | 1997-02-14
+ All Dogs Go to Heaven 2 (1996)                                                  | 1996-03-29
+ Theodore Rex (1995)                                                             | 1996-03-29
+ Sgt. Bilko (1996)                                                               | 1996-03-29
+ Diabolique (1996)                                                               | 1996-01-01
+ Moll Flanders (1996)                                                            | 1996-06-14
+ Kids in the Hall: Brain Candy (1996)                                            | 1996-04-12
+ Mystery Science Theater 3000: The Movie (1996)                                  | 1996-04-19
+ Truth About Cats & Dogs, The (1996)                                             | 1996-04-26
+ Flipper (1996)                                                                  | 1996-05-10
+ Horseman on the Roof, The (Hussard sur le toit, Le) (1995)                      | 1996-04-19
+ Wallace & Gromit: The Best of Aardman Animation (1996)                          | 1996-04-05
+ Haunted World of Edward D. Wood Jr., The (1995)                                 | 1996-04-26
+ Cold Comfort Farm (1995)                                                        | 1996-04-23
+ Rock, The (1996)                                                                | 1996-06-07
+ Twister (1996)                                                                  | 1996-05-10
+ Striptease (1996)                                                               | 1996-06-28
+ Independence Day (ID4) (1996)                                                   | 1996-07-03
+ Cable Guy, The (1996)                                                           | 1996-06-14
+ Frighteners, The (1996)                                                         | 1996-07-19
+ Lone Star (1996)                                                                | 1996-06-21
+ Phenomenon (1996)                                                               | 1996-06-29
+ Spitfire Grill, The (1996)                                                      | 1996-09-06
+ Supercop (1992)                                                                 | 1996-07-26
+ Bound (1996)                                                                    | 1996-10-04
+ Kansas City (1996)                                                              | 1996-08-16
+ Big Night (1996)                                                                | 1996-09-20
+ D3: The Mighty Ducks (1996)                                                     | 1996-10-04
+ Unhook the Stars (1996)                                                         | 1996-10-30
+ Long Kiss Goodnight, The (1996)                                                 | 1996-10-05
+ Ghost and the Darkness, The (1996)                                              | 1996-10-11
+ Jude (1996)                                                                     | 1996-11-01
+ Swingers (1996)                                                                 | 1996-10-18
+ Return of the Jedi (1983)                                                       | 1997-03-14
+ Mirror Has Two Faces, The (1996)                                                | 1996-11-15
+ Breaking the Waves (1996)                                                       | 1996-11-15
+ Star Trek: First Contact (1996)                                                 | 1996-11-22
+--More-- 
 ```
 
 4. List the `title` of all movies that begins with the letter 'F'.
