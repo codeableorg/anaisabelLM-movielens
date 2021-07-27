@@ -195,7 +195,56 @@ SELECT title, release_date FROM movies WHERE release_date BETWEEN '1996-01-01' A
 4. List the `title` of all movies that begins with the letter 'F'.
 
 ```SQL
-<your SQL query here>
+SELECT title FROM movies WHERE title LIKE 'F%';
+
+                          title                           
+----------------------------------------------------------
+ Four Rooms (1995)
+ French Twist (Gazon maudit) (1995)
+ From Dusk Till Dawn (1996)
+ Free Willy 2: The Adventure Home (1995)
+ Forrest Gump (1994)
+ Four Weddings and a Funeral (1994)
+ Faster Pussycat! Kill! Kill! (1965)
+ Firm, The (1993)
+ Free Willy (1993)
+ Fugitive, The (1993)
+ Fargo (1996)
+ Flipper (1996)
+ Frighteners, The (1996)
+ Fish Called Wanda, A (1988)
+ Full Metal Jacket (1987)
+ Field of Dreams (1989)
+ Fifth Element, The (1997)
+ Full Monty, The (1997)
+ Fierce Creatures (1997)
+ Face/Off (1997)
+ Fly Away Home (1996)
+ FairyTale: A True Story (1997)
+ Fallen (1998)
+ Flintstones, The (1994)
+ Fear of a Black Hat (1993)
+ Fantasia (1940)
+ Forbidden Planet (1956)
+ Free Willy 3: The Rescue (1997)
+ First Wives Club, The (1996)
+ Fly Away Home (1996)
+ Farinelli: il castrato (1994)
+ Fatal Instinct (1993)
+ Fan, The (1996)
+ For Whom the Bell Tolls (1943)
+ Father of the Bride (1950)
+ Fog, The (1980)
+ Fried Green Tomatoes (1991)
+ Fire on the Mountain (1996)
+ First Knight (1995)
+ Fluke (1995)
+ Father of the Bride Part II (1995)
+ Fair Game (1995)
+ French Kiss (1995)
+ Frisk (1995)
+ Faces (1968)
+--More-- 
 ```
 
 5. List the `title` of the oldest movie.
