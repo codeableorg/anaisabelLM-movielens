@@ -250,7 +250,12 @@ SELECT title FROM movies WHERE title LIKE 'F%';
 5. List the `title` of the oldest movie.
 
 ```SQL
-<your SQL query here>
+SELECT title FROM movies ORDER BY release_date asc LIMIT 1;
+
+                          title                           
+----------------------------------------------------------
+ Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922)
+(1 row)
 ```
 
 6. List the `title` and `release_date` of all the movies from the newest to the oldest one.
