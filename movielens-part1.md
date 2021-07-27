@@ -374,7 +374,29 @@ SELECT DISTINCT release_date FROM movies ORDER BY release_date asc;
 8. List how many male and female users there are.
 
 ```SQL
-<your SQL query here>
+SELECT count(gender) FROM users group by gender;
+
+ count 
+-------
+   670 
+   273 
+(2 rows)
+
+
+
+SELECT count(gender) FROM users WHERE gender = 'F';
+ count 
+-------
+   273
+(1 row)
+
+
+
+SELECT count(gender) FROM users WHERE gender = 'M';
+ count 
+-------
+   670
+(1 row)
 ```
 
 9. List how many users of each age there are.
