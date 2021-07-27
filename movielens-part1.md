@@ -457,6 +457,11 @@ SELECT age, count(age) FROM users group by age;
 10. List average age of the users group by gender.
 
 ```SQL
-<your SQL query here>
+SELECT gender, avg(age) FROM users GROUP BY gender;\
 
+ gender |         avg         
+--------+---------------------
+ M      | 34.1492537313432836
+ F      | 33.8131868131868132
+(2 rows)
 ```
